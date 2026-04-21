@@ -9,7 +9,10 @@
       "Bash(jj bookmark *)",
       "Bash(jj commit -m 'chore: bootstrap Stage 1 runtime \\(0.1.0-0\\)' -m ' *)",
       "Bash(jj git *)",
-      "Bash(vc-x1 finalize *)"
+      "Bash(vc-x1 finalize *)",
+      "Bash(cargo fmt *)",
+      "Bash(cargo test *)",
+      "Bash(goal1 *)"
     ]
   }
 }
