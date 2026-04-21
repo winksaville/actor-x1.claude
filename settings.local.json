@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cargo --version)",
+      "Bash(rustc --version)",
+      "Bash(cargo clippy *)",
+      "Bash(jj st *)",
+      "Bash(vc-x1 chid *)",
+      "Bash(jj bookmark *)",
+      "Bash(jj commit -m 'chore: bootstrap Stage 1 runtime \\(0.1.0-0\\)' -m ' *)",
+      "Bash(jj git *)",
+      "Bash(vc-x1 finalize *)"
+    ]
+  }
+}
