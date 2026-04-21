@@ -12,7 +12,8 @@
       "Bash(vc-x1 finalize *)",
       "Bash(cargo fmt *)",
       "Bash(cargo test *)",
-      "Bash(goal1 *)"
+      "Bash(goal1 *)",
+      "Bash(cargo install *)"
     ]
   }
 }
