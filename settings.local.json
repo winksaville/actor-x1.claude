@@ -20,7 +20,12 @@
       "Bash(goal2 0.5 --warmup 0.5 --pin 0,1)",
       "Bash(jj commit -m 'feat: --pin for thread CPU affinity \\(0.1.0-8\\)' -m ' *)",
       "Bash(goal2 --version)",
-      "Bash(jj commit -m 'feat: Stage 1 release marker \\(0.1.0\\)' -m ' *)"
+      "Bash(jj commit -m 'feat: Stage 1 release marker \\(0.1.0\\)' -m ' *)",
+      "Bash(jj log *)",
+      "Read(//home/wink/.cargo/bin/**)",
+      "Read(//home/wink/data/prgs/rust/**)",
+      "Bash(grep -rn 'other.repo\\\\|other_repo\\\\|claude_path\\\\|\"\\\\.claude\"\\\\|`\\\\.claude`\\\\|session repo' /home/wink/data/prgs/rust/vc-x1/src/ /home/wink/data/prgs/rust/vc-x1/CLAUDE.md)",
+      "Bash(vc-x1 push *)"
     ]
   }
 }
