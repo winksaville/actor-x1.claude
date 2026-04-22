@@ -18,7 +18,9 @@
       "Bash(goal2 0.5 --warmup 0 --pin 0,4)",
       "Bash(echo \"exit=$?\")",
       "Bash(goal2 0.5 --warmup 0.5 --pin 0,1)",
-      "Bash(jj commit -m 'feat: --pin for thread CPU affinity \\(0.1.0-8\\)' -m ' *)"
+      "Bash(jj commit -m 'feat: --pin for thread CPU affinity \\(0.1.0-8\\)' -m ' *)",
+      "Bash(goal2 --version)",
+      "Bash(jj commit -m 'feat: Stage 1 release marker \\(0.1.0\\)' -m ' *)"
     ]
   }
 }
