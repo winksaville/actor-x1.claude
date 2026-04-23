@@ -25,7 +25,8 @@
       "Read(//home/wink/.cargo/bin/**)",
       "Read(//home/wink/data/prgs/rust/**)",
       "Bash(grep -rn 'other.repo\\\\|other_repo\\\\|claude_path\\\\|\"\\\\.claude\"\\\\|`\\\\.claude`\\\\|session repo' /home/wink/data/prgs/rust/vc-x1/src/ /home/wink/data/prgs/rust/vc-x1/CLAUDE.md)",
-      "Bash(vc-x1 push *)"
+      "Bash(vc-x1 push *)",
+      "Bash(jj diff *)"
     ]
   }
 }
