@@ -27,7 +27,9 @@
       "Bash(grep -rn 'other.repo\\\\|other_repo\\\\|claude_path\\\\|\"\\\\.claude\"\\\\|`\\\\.claude`\\\\|session repo' /home/wink/data/prgs/rust/vc-x1/src/ /home/wink/data/prgs/rust/vc-x1/CLAUDE.md)",
       "Bash(vc-x1 push *)",
       "Bash(jj diff *)",
-      "Bash(cargo check *)"
+      "Bash(cargo check *)",
+      "Bash(goalzc 0.2 --pin 99999)",
+      "Bash(goalzc 0.2 --pin abc)"
     ]
   }
 }
