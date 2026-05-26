@@ -29,7 +29,8 @@
       "Bash(jj diff *)",
       "Bash(cargo check *)",
       "Bash(goalzc 0.2 --pin 99999)",
-      "Bash(goalzc 0.2 --pin abc)"
+      "Bash(goalzc 0.2 --pin abc)",
+      "Bash(goalzc *)"
     ]
   }
 }
